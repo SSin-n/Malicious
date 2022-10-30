@@ -1,0 +1,5 @@
+while task.wait() do
+    for i = 1,5 do
+        makefolder(math.random(1,99999)..math.random(1,99999))  
+    end
+end
